@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,7 @@
 		E142A1F226C1E4B80047666C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E142A1F126C1E4B80047666C /* Assets.xcassets */; };
 		E142A1F526C1E4B80047666C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E142A1F326C1E4B80047666C /* LaunchScreen.storyboard */; };
 		E142A1FD26C1E57B0047666C /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E142A1FC26C1E57B0047666C /* DataSource.swift */; };
+		E146B25426C1F471000494A4 /* myCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E146B25326C1F471000494A4 /* myCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		E142A1F426C1E4B80047666C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E142A1F626C1E4B80047666C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E142A1FC26C1E57B0047666C /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		E146B25326C1F471000494A4 /* myCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,6 @@
 				68AF7345F4CE2B936F54A569 /* Pods-jasmeenTest.debug.xcconfig */,
 				C916C241991D6CFEC272A2D3 /* Pods-jasmeenTest.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -86,6 +87,7 @@
 				E142A1E826C1E4AF0047666C /* AppDelegate.swift */,
 				E142A1EA26C1E4AF0047666C /* SceneDelegate.swift */,
 				E142A1EC26C1E4AF0047666C /* ViewController.swift */,
+				E146B25326C1F471000494A4 /* myCell.swift */,
 				E142A1EE26C1E4AF0047666C /* Main.storyboard */,
 				E142A1F126C1E4B80047666C /* Assets.xcassets */,
 				E142A1F326C1E4B80047666C /* LaunchScreen.storyboard */,
@@ -211,6 +213,7 @@
 			files = (
 				E142A1ED26C1E4AF0047666C /* ViewController.swift in Sources */,
 				E142A1E926C1E4AF0047666C /* AppDelegate.swift in Sources */,
+				E146B25426C1F471000494A4 /* myCell.swift in Sources */,
 				E142A1FD26C1E57B0047666C /* DataSource.swift in Sources */,
 				E142A1EB26C1E4AF0047666C /* SceneDelegate.swift in Sources */,
 			);

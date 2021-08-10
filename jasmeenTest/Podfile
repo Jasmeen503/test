@@ -6,6 +6,7 @@ target 'jasmeenTest' do
   use_frameworks!
 
 	pod 'Alamofire'
+ pod 'SwiftyJSON', '~> 4.0'
   # Pods for jasmeenTest
 
 end
